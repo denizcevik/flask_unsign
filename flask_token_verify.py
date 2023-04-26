@@ -1,5 +1,5 @@
 from flask_unsign import session
-session_cookie="eyJfdXNlcl9pZCI6MSwidXNlcl9pZCI6MX0.ZEfQPg.Enz83rUqMAFfdCds7ClQzlEmScg";
+session_cookie="eyJfdXNlcl9pZCI6MSwidXNlcl9pZCI6MX0.ZEfQPg.Enz83rUqMAFfdCds7ClQzlEmScg"; #user_id:1 
 session.decode(session_cookie)
 session.verify(session_cookie, '\x02\x01thisismyscretkey\x01\x02\\e\\y\\y\\h')
 
