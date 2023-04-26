@@ -13,3 +13,5 @@ session.verify(session_cookie, '\x02\x01thisismyscretkey\x01\x02\\e\\y\\y\\h')
 
 # More complete word list
 # https://github.com/Paradoxis/Flask-Unsign-Wordlist
+#
+# flask-unsign --wordlist /usr/share/wordlists/rockyou.txt --unsign --cookie '<cookie>' --no-literal-eval
